@@ -1,5 +1,5 @@
 # I guess that requiring people to instal Scons is silly, so I'll add this
-# Makefile.
+# Makefile
 
 UNAME := $(shell uname -m)
 WARNING_FLAGS := -Wall -Wextra -Wshadow -Wswitch-enum \
