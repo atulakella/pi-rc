@@ -137,3 +137,4 @@ where the first object is the synchronization signal and the second is the
 command signal.  The Pi will continue broadcasting a given command until a new
 command is received. If you want to stop the car from moving, try sending a
 signal repeat that doesn't correspond to any action from the RC car.
+  
