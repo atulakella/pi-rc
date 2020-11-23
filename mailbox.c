@@ -90,7 +90,7 @@ static int mbox_property(int file_desc, void *buf)
 
     if (ret_val < 0) {
         printf("ioctl_set_msg failed:%d\n", ret_val);
-    }
+    } 
 
 #ifdef DEBUG
     unsigned *p = buf; int i; unsigned size = *(unsigned *)buf;
